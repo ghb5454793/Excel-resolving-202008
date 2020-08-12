@@ -35,7 +35,7 @@ public class CustomCellWriteHandler implements CellWriteHandler {
              */
             cellStyle.setFillForegroundColor(IndexedColors.CORAL.getIndex());
             cellStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
-            cellStyle.setFont(cellFont);
+            //cellStyle.setFont(cellFont);
             //添加格式
             cell.setCellStyle(cellStyle);
         }
